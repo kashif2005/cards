@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: flex;
+}
+
+.cards {
+    width: 300px;
+    background-color: #eeee;
+    border-radius: 4px;
+    margin: 50px;
+    box-shadow: 1px 1px 10px black;
+    /* display: flex; */
+}
+
+.image img {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.des {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/* .btn button {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid black;
+} */
+
+.btn :hover {
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+.btn {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
